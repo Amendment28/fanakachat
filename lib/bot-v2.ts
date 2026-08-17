@@ -1484,15 +1484,10 @@ async function handleChangePlan(shop: any, ownerPhone: string, text: string) {
     return sendWhatsAppMessage({
       to: ownerPhone,
       message:
-        "❌ Invalid plan.
-
-" +
-        "Choose:
-" +
-        "• plan loyalty — Points & rewards only
-" +
-        "• plan appointments — Booking & reminders only
-" +
+        "❌ Invalid plan.\n\n" +
+        "Choose:\n" +
+        "• plan loyalty — Points & rewards only\n" +
+        "• plan appointments — Booking & reminders only\n" +
         "• plan both — Full platform",
     });
   }
