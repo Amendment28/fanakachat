@@ -1,6 +1,0 @@
-{
-  "buildCommand": "prisma generate && prisma migrate deploy && next build",
-  "typescript": {
-    "ignoreBuildErrors": true
-  }
-}
