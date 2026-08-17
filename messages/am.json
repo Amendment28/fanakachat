@@ -1,0 +1,118 @@
+{
+  "landing": {
+    "nav": {
+      "signIn": "ግባ",
+      "getStarted": "አሁኑኑ ጀምር"
+    },
+    "hero": {
+      "title": "የታማኝነት ፕሮግራሞች",
+      "subtitle": "በዋትስአፕ ውስጥ የሚኖሩ",
+      "description": "የWhatsApp ደንበኞችዎን ታማኝ ደጋፊዎች ያድርጓቸው። መተግበሪያ ለማውረድ የለም። ውስብስብ ስርዓቶች የሉም። ነጥቦች፣ ሽልማቶች እና ተደጋጋሚ ንግድ ብቻ።",
+      "startTrial": "ነፃ ሙከራ ጀምር",
+      "watchDemo": "ማሳያ ይመልከቱ"
+    },
+    "features": {
+      "title": "የሚፈልጉት ሁሉ",
+      "subtitle": "ደንበኞቻቸው በWhatsApp ላይ እንደሚኖሩ ለሚያውቁ ንግዶች የተገነባ",
+      "whatsappNative": {
+        "title": "የዋትስአፕ ተወላጅ",
+        "description": "ደንበኞች በቀጥታ በWhatsApp ውስጥ ነጥቦችን ያገኛሉ እና ይለውጣሉ። መተግበሪያ ለማውረድ አያስፈልግም።"
+      },
+      "customRewards": {
+        "title": "ብጁ ሽልማቶች",
+        "description": "የራስዎን የሽልማት ካታሎግ ይፍጠሩ። ከቅናሾች እስከ ነፃ ምርቶች።"
+      },
+      "boostRetention": {
+        "title": "ማቆየትን ያሳድጉ",
+        "description": "አንድ ጊዜ ገዢዎችን በእውነት ወደሚፈልጓቸው ነጥቦች ተደጋጋሚ ደንበኞች ያድርጓቸው።"
+      },
+      "autoAward": {
+        "title": "በራስ-ሰር ነጥቦችን ሸልም",
+        "description": "ግዢዎችን በራስ-ሰር ይለያል እና ነጥቦችን ይሸለማል። ሁሉም ነገር በWhatsApp ውስጥ ይከሰታል።"
+      }
+    },
+    "pricing": {
+      "title": "ቀላል፣ ግልጽ የዋጋ አወጣጥ",
+      "subtitle": "ለ{country} የዋጋ አወጣጥ። በነጻ ጀምር። ዝግጁ በሆኑበት ጊዜ አስቀድሙ።",
+      "perMonth": "/ወር",
+      "mostPopular": "በጣም ተወዳጅ",
+      "starter": {
+        "name": "መነሻ",
+        "features": [
+          "እስከ 100 ደንበኞች",
+          "የWhatsApp ውህደት",
+          "መሰረታዊ ትንታኔዎች",
+          "በራስ-ሰር ነጥቦችን ሸልም",
+          "የኢሜል ድጋፍ"
+        ],
+        "cta": "ነፃ ሙከራ ጀምር"
+      },
+      "growth": {
+        "name": "እድገት",
+        "features": [
+          "እስከ 500 ደንበኞች",
+          "በመነሻ ውስጥ ያለው ሁሉ",
+          "የላቀ ትንታኔዎች",
+          "የቅድሚያ ድጋፍ",
+          "ብጁ ምልክት ማድረግ"
+        ],
+        "cta": "ነፃ ሙከራ ጀምር"
+      },
+      "business": {
+        "name": "ንግድ",
+        "features": [
+          "ያልተገደቡ ደንበኞች",
+          "በእድገት ውስጥ ያለው ሁሉ",
+          "የAPI መዳረሻ",
+          "ተወደዳሪ የመለያ አስተዳዳሪ",
+          "ነጭ-መለያ አማራጮች"
+        ],
+        "cta": "ሽያጮችን ያግኙ"
+      }
+    },
+    "cta": {
+      "title": "የደንበኛ ታማኝነትን ለመገንባት ዝግጁ ነዎት?",
+      "subtitle": "የWhatsApp ውይይቶችን ወደ ተደጋጋሚ ደንበኞች የሚቀይሩ ንግዶችን ይቀላቀሉ",
+      "button": "ነፃ ሙከራዎን ጀምር",
+      "noCreditCard": "ክሬዲት ካርድ አያስፈልግም"
+    },
+    "footer": {
+      "tagline": "በዓለም ዙሪያ ላሉ ንግዶች የWhatsApp ታማኝነት ፕሮግራሞች",
+      "copyright": "© 2026 ChatRewards። ሁሉም መብቶች የተጠበቁ ናቸው።"
+    }
+  },
+  "admin": {
+    "nav": {
+      "title": "ChatRewards አስተዳዳሪ",
+      "settings": "ቅንብሮች"
+    },
+    "stats": {
+      "totalCustomers": "ጠቅላላ ደንበኞች",
+      "totalPoints": "ጠቅላላ የተሸለሙ ነጥቦች",
+      "activeRewards": "ንቁ ሽልማቶች"
+    },
+    "tabs": {
+      "customers": "ደንበኞች",
+      "rewards": "ሽልማቶች",
+      "transactions": "ግብይቶች"
+    },
+    "empty": {
+      "noCustomers": "እስካሁን ደንበኞች የሉም",
+      "description": "ከWhatsApp ቦትዎ ጋር ሲገናኙ ደንበኞች እዚህ ይታያሉ",
+      "setupBot": "WhatsApp ቦት አዘጋጅ"
+    }
+  },
+  "whatsapp": {
+    "pointsEarned": "🎉 {points} ነጥቦችን አገኙ!",
+    "balance": "ሚዛንዎ: {total} ነጥቦች",
+    "seeRewards": "ምን መቤዝ እንደሚችሉ ለማየት \"ሽልማቶች\" ብለው ይመልሱ።",
+    "rewardRedeemed": "✅ ሽልማት ተቤዝቷል!",
+    "rewardName": "{name}",
+    "code": "ኮድ: {code}",
+    "showCode": "ይህንን ኮድ ለሱቁ ባለቤት ያሳዩ።",
+    "ownerNotification": "🎁 የመቤዝ ማንቂያ!",
+    "customer": "ደንበኛ: {name}",
+    "reward": "ሽልማት: {name}",
+    "applyDiscount": "እባክዎ ይህንን ቅናሽ/ሽልማት ይተግብሩ።"
+  }
+}

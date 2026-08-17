@@ -1,0 +1,117 @@
+// Prisma schema for ChatRewards
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Shop {
+  id            String   @id @default(cuid())
+  name          String
+  phoneNumber   String   @unique // WhatsApp Business number
+  email         String?  @unique
+  password      String   // Hashed
+  pointsPerKES  Int      @default(1) // 1 point per X KES spent
+  
+  // Plan & Billing
+  planType      String   @default("BOTH") // "LOYALTY" | "APPOINTMENTS" | "BOTH"
+  billingTier   Int      @default(1) // 1 ($10), 2 ($25), 3 ($50), 4 ($100)
+  activeCustomersThisMonth Int @default(0) // Calculated monthly
+  
+  // Appointment settings
+  reminderHours Int      @default(24) // Hours before appointment to send reminder (24, 48, 72, etc.)
+  depositAmount Int?     // Optional deposit amount (in local currency)
+  paymentInfo   String?  // M-Pesa number or payment link
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  customers     Customer[]
+  rewards       Reward[]
+  transactions  Transaction[]
+  appointments  Appointment[]
+}
+
+model Customer {
+  id            String   @id @default(cuid())
+  shopId        String
+  shop          Shop     @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  name          String
+  phoneNumber   String   // WhatsApp number
+  countryCode   String   // KE, TZ, GH, NG, ZA, UG, RW, ET, ZM
+  currency      String   // KES, TZS, GHS, NGN, ZAR, UGX, RWF, ETB, ZMW
+  points        Int      @default(0)
+  totalSpent    Int      @default(0) // In their local currency
+  
+  // Notification preferences
+  notificationFrequency String @default("NONE") // "NONE" | "DAILY" | "WEEKLY" | "MONTHLY"
+  lastSummarysent      DateTime? // Track when last summary was sent
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  transactions  Transaction[]
+  
+  @@unique([shopId, phoneNumber])
+  @@index([shopId])
+}
+
+model Reward {
+  id            String   @id @default(cuid())
+  shopId        String
+  shop          Shop     @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  name          String   // e.g., "10% off next purchase"
+  description   String?
+  pointsCost    Int      // How many points to redeem
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  redemptions   Transaction[]
+  
+  @@index([shopId])
+}
+
+model Transaction {
+  id            String   @id @default(cuid())
+  shopId        String
+  shop          Shop     @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  customerId    String
+  customer      Customer @relation(fields: [customerId], references: [id], onDelete: Cascade)
+  type          String   // "EARN" or "REDEEM"
+  points        Int      // Positive for earn, negative for redeem
+  amount        Int?     // For EARN transactions (in customer's currency)
+  currency      String?  // Customer's currency at time of transaction
+  rewardId      String?
+  reward        Reward?  @relation(fields: [rewardId], references: [id], onDelete: SetNull)
+  redemptionCode String? // Generated code for redeemed rewards
+  usedAt        DateTime?
+  createdAt     DateTime @default(now())
+  
+  @@index([shopId])
+  @@index([customerId])
+}
+
+model Appointment {
+  id            String   @id @default(cuid())
+  shopId        String
+  shop          Shop     @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  customerName  String
+  customerPhone String   // WhatsApp number
+  appointmentTime DateTime
+  status        String   @default("CONFIRMED") // "CONFIRMED", "CANCELLED", "COMPLETED", "NO_SHOW"
+  depositPaid   Boolean  @default(false) // Whether deposit was confirmed by shop
+  reminderSent  Boolean  @default(false)
+  notes         String?  // Optional notes from customer or shop
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  @@index([shopId])
+  @@index([customerPhone])
+  @@index([appointmentTime])
+  @@index([status])
+}

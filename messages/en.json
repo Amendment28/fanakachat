@@ -1,0 +1,128 @@
+{
+  "landing": {
+    "nav": {
+      "signIn": "Sign In",
+      "getStarted": "Get Started"
+    },
+    "hero": {
+      "title": "Loyalty Programs",
+      "subtitle": "That Live in WhatsApp",
+      "description": "Turn your WhatsApp customers into loyal fans. No apps to download. No complicated systems. Just points, rewards, and repeat business.",
+      "startTrial": "Start Free Trial",
+      "watchDemo": "Watch Demo"
+    },
+    "features": {
+      "title": "Everything You Need",
+      "subtitle": "Built for businesses who know their customers live on WhatsApp",
+      "whatsappNative": {
+        "title": "WhatsApp Native",
+        "description": "Customers earn and redeem points directly in WhatsApp. No app download required."
+      },
+      "loyaltyProgram": {
+        "title": "Loyalty Program",
+        "description": "Automatic sale detection. Customers earn points with every purchase, no manual entry needed."
+      },
+      "appointments": {
+        "title": "Appointment Scheduling",
+        "description": "Book appointments via WhatsApp. Configurable reminders (24-72h). Reduce no-shows."
+      },
+      "boostRetention": {
+        "title": "Boost Retention",
+        "description": "Turn one-time buyers into repeat customers with points they actually want."
+      },
+      "autoAward": {
+        "title": "Auto-Award Points",
+        "description": "Automatically detects purchases and awards points. Everything happens in WhatsApp."
+      }
+    },
+    "pricing": {
+      "title": "Usage-Based Pricing",
+      "subtitle": "Pay only for active customers. Scale fairly with your business.",
+      "perMonth": "/month",
+      "mostPopular": "Most Popular",
+      "starter": {
+        "name": "Tier 1",
+        "description": "0-200 active customers",
+        "price": "$10",
+        "features": [
+          "Loyalty program OR Appointments",
+          "Automatic sale detection",
+          "WhatsApp integration",
+          "Configurable reminders",
+          "Email support"
+        ],
+        "cta": "Start Free Trial"
+      },
+      "growth": {
+        "name": "Tier 2",
+        "description": "201-500 active customers",
+        "price": "$25",
+        "features": [
+          "Everything in Tier 1",
+          "Both modules (Loyalty + Appointments)",
+          "Weekly/Monthly batch summaries",
+          "Priority support",
+          "Optional deposit system"
+        ],
+        "cta": "Start Free Trial"
+      },
+      "business": {
+        "name": "Tier 3+",
+        "description": "501-1,000+ active customers",
+        "price": "$50-100",
+        "features": [
+          "Everything in Tier 2",
+          "API access",
+          "Custom integrations",
+          "Dedicated support",
+          "White-label options"
+        ],
+        "cta": "Contact Sales"
+      }
+    },
+    "cta": {
+      "title": "Ready to Build Customer Loyalty?",
+      "subtitle": "Join businesses turning WhatsApp chats into repeat customers",
+      "button": "Start Your Free Trial",
+      "noCreditCard": "No credit card required"
+    },
+    "footer": {
+      "tagline": "WhatsApp loyalty programs for businesses worldwide",
+      "copyright": "© 2026 ChatRewards. All rights reserved."
+    }
+  },
+  "admin": {
+    "nav": {
+      "title": "ChatRewards Admin",
+      "settings": "Settings"
+    },
+    "stats": {
+      "totalCustomers": "Total Customers",
+      "totalPoints": "Total Points Awarded",
+      "activeRewards": "Active Rewards"
+    },
+    "tabs": {
+      "customers": "Customers",
+      "rewards": "Rewards",
+      "transactions": "Transactions"
+    },
+    "empty": {
+      "noCustomers": "No customers yet",
+      "description": "Customers will appear here when they interact with your WhatsApp bot",
+      "setupBot": "Setup WhatsApp Bot"
+    }
+  },
+  "whatsapp": {
+    "pointsEarned": "🎉 You earned {points} points!",
+    "balance": "Your balance: {total} points",
+    "seeRewards": "Reply \"rewards\" to see what you can redeem.",
+    "rewardRedeemed": "✅ Reward redeemed!",
+    "rewardName": "{name}",
+    "code": "Code: {code}",
+    "showCode": "Show this code to the shop owner.",
+    "ownerNotification": "🎁 Redemption Alert!",
+    "customer": "Customer: {name}",
+    "reward": "Reward: {name}",
+    "applyDiscount": "Please apply this discount/reward."
+  }
+}

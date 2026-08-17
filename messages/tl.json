@@ -1,0 +1,118 @@
+{
+  "landing": {
+    "nav": {
+      "signIn": "Mag-sign in",
+      "getStarted": "Magsimula Na"
+    },
+    "hero": {
+      "title": "Programa ng Katapatan",
+      "subtitle": "Na Nasa WhatsApp",
+      "description": "Gawing tapat na tagahanga ang mga customer ng iyong WhatsApp. Walang kailangang i-download na app. Walang kumplikadong sistema. Puntos lang, gantimpala, at nakababahalang negosyo.",
+      "startTrial": "Magsimula ng Libreng Pagsubok",
+      "watchDemo": "Panoorin ang Demo"
+    },
+    "features": {
+      "title": "Lahat ng Kailangan Mo",
+      "subtitle": "Ginawa para sa mga negosyo na alam na ang kanilang mga customer ay nasa WhatsApp",
+      "whatsappNative": {
+        "title": "Oras ng WhatsApp",
+        "description": "Kumikita at nag-redeem ng mga puntos ang mga customer nang direkta sa WhatsApp. Walang kailangang i-download na app."
+      },
+      "customRewards": {
+        "title": "Mga Pasadyang Gantimpala",
+        "description": "Gumawa ng iyong sariling katalogo ng gantimpala. Mula sa mga diskwento hanggang sa mga libreng produkto."
+      },
+      "boostRetention": {
+        "title": "Dagdagan ang Retention",
+        "description": "Gawing mga umuulit na customer mula sa mga isang beses na mamimili gamit ang mga puntos na talagang gusto nila."
+      },
+      "autoAward": {
+        "title": "Awtomatikong Magbigay ng Puntos",
+        "description": "Awtomatiko nitong nadidetect ang mga pagbili at nagbibigay ng mga puntos. Lahat ay nangyayari sa WhatsApp."
+      }
+    },
+    "pricing": {
+      "title": "Simpleng, Transparent na Pagpepresyo",
+      "subtitle": "Pagpepresyo para sa {country}. Magsimula ng libre. Mag-upgrade kapag handa ka na.",
+      "perMonth": "/buwan",
+      "mostPopular": "Pinaka-popular",
+      "starter": {
+        "name": "Nagsisimula",
+        "features": [
+          "Hanggang 100 customer",
+          "Integrasyon ng WhatsApp",
+          "Pangunahing pagsusuri",
+          "Awtomatikong nagbibigay ng mga puntos",
+          "Suportang pang-email"
+        ],
+        "cta": "Magsimula ng Libreng Pagsubok"
+      },
+      "growth": {
+        "name": "Paglago",
+        "features": [
+          "Hanggang 500 customer",
+          "Lahat ng nasa Nagsisimula",
+          "Advanced na pagsusuri",
+          "Prayoridad na suporta",
+          "Pasadyang tatak"
+        ],
+        "cta": "Magsimula ng Libreng Pagsubok"
+      },
+      "business": {
+        "name": "Negosyo",
+        "features": [
+          "Walang limitasyong customer",
+          "Lahat ng nasa Paglago",
+          "Access sa API",
+          "Tanggap na tagapamahala",
+          "Mga opsyon ng white-label"
+        ],
+        "cta": "Makipag-ugnay sa Sales"
+      }
+    },
+    "cta": {
+      "title": "Handa Ka Nang Magtayo ng Katapatan ng Customer?",
+      "subtitle": "Sumali sa mga negosyong nagbabalik ng mga pag-uusap sa WhatsApp sa mga customer na nag-uulit",
+      "button": "Magsimula ng Iyong Libreng Pagsubok",
+      "noCreditCard": "Walang kinakailangang credit card"
+    },
+    "footer": {
+      "tagline": "Mga programa ng katapatan sa WhatsApp para sa mga negosyo sa buong mundo",
+      "copyright": "© 2026 ChatRewards. Lahat ng karapatan ay nakatalaga."
+    }
+  },
+  "admin": {
+    "nav": {
+      "title": "ChatRewards Admin",
+      "settings": "Mga Setting"
+    },
+    "stats": {
+      "totalCustomers": "Kabuuang Customer",
+      "totalPoints": "Kabuuang Naipamahaging Puntos",
+      "activeRewards": "Mga Aktibong Gantimpala"
+    },
+    "tabs": {
+      "customers": "Mga Customer",
+      "rewards": "Mga Gantimpala",
+      "transactions": "Mga Transaksyon"
+    },
+    "empty": {
+      "noCustomers": "Wala pang customer",
+      "description": "Ang mga customer ay lilitaw dito sa oras na sila ay makipag-ugnayan sa iyong WhatsApp bot",
+      "setupBot": "I-set up ang WhatsApp Bot"
+    }
+  },
+  "whatsapp": {
+    "pointsEarned": "🎉 Nakatanggap ka ng {points} puntos!",
+    "balance": "Ang iyong balanse: {total} puntos",
+    "seeRewards": "Tumugon sa \"gantimpala\" upang makita kung ano ang maari mong ipagpalit.",
+    "rewardRedeemed": "✅ Gantimpala ay naipagpalit!",
+    "rewardName": "{name}",
+    "code": "Code: {code}",
+    "showCode": "Ipakita ang code na ito sa may-ari ng tindahan.",
+    "ownerNotification": "🎁 Babala sa Redempsyon!",
+    "customer": "Customer: {name}",
+    "reward": "Gantimpala: {name}",
+    "applyDiscount": "Mangyaring ipatupad ang diskwento/hadlang na ito."
+  }
+}

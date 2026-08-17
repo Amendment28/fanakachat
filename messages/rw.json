@@ -1,0 +1,118 @@
+{
+  "landing": {
+    "nav": {
+      "signIn": "Injira",
+      "getStarted": "Tangira Ubu"
+    },
+    "hero": {
+      "title": "Porogaramu z'Ubwizerane",
+      "subtitle": "Zibaho muri WhatsApp",
+      "description": "Hindura abakiriya bawe ba WhatsApp baba abakunzi babiri. Nta porogaramu yo gukuramo. Nta sisitemu zikomeye. Ni amanota, ibihembo, no gusubiramo ubucuruzi.",
+      "startTrial": "Tangira Ikizamini Kibazo",
+      "watchDemo": "Reba Demo"
+    },
+    "features": {
+      "title": "Ibintu byose ukeneye",
+      "subtitle": "Yubatswe kubijyanye n'ubucuruzi bazi ko abakiriya babo baba muri WhatsApp",
+      "whatsappNative": {
+        "title": "WhatsApp Kuri Muntu",
+        "description": "Abakiriya babona n'ibihumbi bavanaho amanota bakoresheje WhatsApp. Nta porogaramu yo gukuramo irakenewe."
+      },
+      "customRewards": {
+        "title": "Ibihembo Byihariye",
+        "description": "Tegura katalo y'ibihombo byawe. Ubuhanga buturutse kuri disikuru kugeza ku bicuruzwa by'ubuntu."
+      },
+      "boostRetention": {
+        "title": "Kongera Kwirinda",
+        "description": "Hindura abakiriya bazinduka baba abakiriya bazunguruka hamwe n'amanota nyayo."
+      },
+      "autoAward": {
+        "title": "Tanga Amanota Akoreshwa",
+        "description": "Igihe gishya igitanga n'amanota. Ibyose bikozwe muri WhatsApp."
+      }
+    },
+    "pricing": {
+      "title": "Ibyiciro Byoroheje n'Imali",
+      "subtitle": "Igiciro kuri {country}. Tangira ubusa. Tera imbere igihe witeguye.",
+      "perMonth": "/ukwezi",
+      "mostPopular": "Ikigenzerezo",
+      "starter": {
+        "name": "Tangira",
+        "features": [
+          "Kugeza kubakiriya 100",
+          "Ihuza na WhatsApp",
+          "Amakuru y'ibanze",
+          "Tanga amanota akoreshwa",
+          "Ikinyamakuru cy'ubufasha"
+        ],
+        "cta": "Tangira Ikizamini Kibazo"
+      },
+      "growth": {
+        "name": "Izamuka",
+        "features": [
+          "Hageze abakiriya 500",
+          "Ibintu byose mu Tangira",
+          "Amakuru y'ibanze",
+          "Ubufasha bw'icyize",
+          "Brandi yihariye"
+        ],
+        "cta": "Tangira Ikizamini Kibazo"
+      },
+      "business": {
+        "name": "Ubucuruzi",
+        "features": [
+          "Abakiriya badafite ihohoterwa",
+          "Ibintu byose mu Ikizamini",
+          "Akarere ka API",
+          "Umunyamakuru wihariye",
+          "Amabi ya split"
+        ],
+        "cta": "Vugana na Serivisi"
+      }
+    },
+    "cta": {
+      "title": "Urebye Kubaka Ibyizere?",
+      "subtitle": "Jya hamwe n'ubucuruzi babahatira uhindura WhatsApp mu bantu babiri",
+      "button": "Tangira Uhuye na Wowe",
+      "noCreditCard": "Nta ikarita y'inyungu irakenewe"
+    },
+    "footer": {
+      "tagline": "Uberwa z'ubwizerane mu WhatsApp bahatanira mu isi yose",
+      "copyright": "© 2026 ChatRewards. Uburenganzira bwose burabaho."
+    }
+  },
+  "admin": {
+    "nav": {
+      "title": "ChatRewards Kuri Muntu",
+      "settings": "Igenamigambi"
+    },
+    "stats": {
+      "totalCustomers": "Abakiriya Benshi",
+      "totalPoints": "Ibyuma Bihariwe Bihariwe",
+      "activeRewards": "Ibihombo Bitari Bibaho"
+    },
+    "tabs": {
+      "customers": "Abakiriya",
+      "rewards": "Ibihombo",
+      "transactions": "Ibiraka"
+    },
+    "empty": {
+      "noCustomers": "Ntibibaye Abakiriya",
+      "description": "Abakiriya bazaboneka hano mu gihe bagira intera na bot ya WhatsApp yawe",
+      "setupBot": "Tegura Bot ya WhatsApp"
+    }
+  },
+  "whatsapp": {
+    "pointsEarned": "🎉 Wabonye {points} amanota!",
+    "balance": "Umugabane wawe: {total} amanota",
+    "seeRewards": "Garuka \"ibihombo\" kugira ngo urebe icyakubaho.",
+    "rewardRedeemed": "✅ Igihembo cyakuwe mu!",
+    "rewardName": "{name}",
+    "code": "Ikigega: {code}",
+    "showCode": "Garagaza inkuru iyi kuri mwene nyaka.",
+    "ownerNotification": "🎁 Ikigeragezo Cya Kwihinguka!",
+    "customer": "Abakiriya: {name}",
+    "reward": "Igihembo: {name}",
+    "applyDiscount": "Gerageza kubahiriza uburyo bwa/kuzigama."
+  }
+}

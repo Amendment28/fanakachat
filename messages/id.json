@@ -1,0 +1,118 @@
+{
+  "landing": {
+    "nav": {
+      "signIn": "Masuk",
+      "getStarted": "Mulai Sekarang"
+    },
+    "hero": {
+      "title": "Program Loyalitas",
+      "subtitle": "Yang Hidup di WhatsApp",
+      "description": "Ubah pelanggan WhatsApp Anda menjadi penggemar setia. Tidak perlu unduh aplikasi. Tidak ada sistem rumit. Hanya poin, hadiah, dan bisnis berulang.",
+      "startTrial": "Mulai Uji Coba Gratis",
+      "watchDemo": "Tonton Demo"
+    },
+    "features": {
+      "title": "Semua Yang Anda Butuhkan",
+      "subtitle": "Dibangun untuk bisnis yang tahu pelanggan mereka hidup di WhatsApp",
+      "whatsappNative": {
+        "title": "Native WhatsApp",
+        "description": "Pelanggan mendapatkan dan menukarkan poin langsung di WhatsApp. Tidak perlu unduh aplikasi."
+      },
+      "customRewards": {
+        "title": "Hadiah Kustom",
+        "description": "Buat katalog hadiah Anda sendiri. Dari diskon hingga produk gratis."
+      },
+      "boostRetention": {
+        "title": "Tingkatkan Retensi",
+        "description": "Ubah pembeli satu kali menjadi pelanggan berulang dengan poin yang benar-benar mereka inginkan."
+      },
+      "autoAward": {
+        "title": "Beri Poin Otomatis",
+        "description": "Otomatis mendeteksi pembelian dan memberikan poin. Semuanya terjadi di WhatsApp."
+      }
+    },
+    "pricing": {
+      "title": "Harga Sederhana dan Transparan",
+      "subtitle": "Harga untuk {country}. Mulai gratis. Upgrade saat Anda siap.",
+      "perMonth": "/bulan",
+      "mostPopular": "Paling Populer",
+      "starter": {
+        "name": "Pemula",
+        "features": [
+          "Hingga 100 pelanggan",
+          "Integrasi WhatsApp",
+          "Analitik dasar",
+          "Beri poin otomatis",
+          "Dukungan email"
+        ],
+        "cta": "Mulai Uji Coba Gratis"
+      },
+      "growth": {
+        "name": "Pertumbuhan",
+        "features": [
+          "Hingga 500 pelanggan",
+          "Semua dalam Pemula",
+          "Analitik lanjutan",
+          "Dukungan prioritas",
+          "Branding kustom"
+        ],
+        "cta": "Mulai Uji Coba Gratis"
+      },
+      "business": {
+        "name": "Bisnis",
+        "features": [
+          "Pelanggan tak terbatas",
+          "Semua dalam Pertumbuhan",
+          "Akses API",
+          "Manajer akun khusus",
+          "Opsi white-label"
+        ],
+        "cta": "Hubungi Penjualan"
+      }
+    },
+    "cta": {
+      "title": "Siap Membangun Loyalitas Pelanggan?",
+      "subtitle": "Bergabunglah dengan bisnis yang mengubah chat WhatsApp menjadi pelanggan berulang",
+      "button": "Mulai Uji Coba Gratis Anda",
+      "noCreditCard": "Tidak perlu kartu kredit"
+    },
+    "footer": {
+      "tagline": "Program loyalitas WhatsApp untuk bisnis di seluruh dunia",
+      "copyright": "© 2026 ChatRewards. Hak cipta dilindungi."
+    }
+  },
+  "admin": {
+    "nav": {
+      "title": "ChatRewards Admin",
+      "settings": "Pengaturan"
+    },
+    "stats": {
+      "totalCustomers": "Total Pelanggan",
+      "totalPoints": "Total Poin Diberikan",
+      "activeRewards": "Hadiah Aktif"
+    },
+    "tabs": {
+      "customers": "Pelanggan",
+      "rewards": "Hadiah",
+      "transactions": "Transaksi"
+    },
+    "empty": {
+      "noCustomers": "Belum ada pelanggan",
+      "description": "Pelanggan akan muncul di sini saat mereka berinteraksi dengan bot WhatsApp Anda",
+      "setupBot": "Siapkan Bot WhatsApp"
+    }
+  },
+  "whatsapp": {
+    "pointsEarned": "🎉 Anda mendapat {points} poin!",
+    "balance": "Saldo Anda: {total} poin",
+    "seeRewards": "Balas \"hadiah\" untuk melihat apa yang bisa Anda tukarkan.",
+    "rewardRedeemed": "✅ Hadiah ditukarkan!",
+    "rewardName": "{name}",
+    "code": "Kode: {code}",
+    "showCode": "Tunjukkan kode ini kepada pemilik toko.",
+    "ownerNotification": "🎁 Peringatan Penukaran!",
+    "customer": "Pelanggan: {name}",
+    "reward": "Hadiah: {name}",
+    "applyDiscount": "Silakan terapkan diskon/hadiah ini."
+  }
+}

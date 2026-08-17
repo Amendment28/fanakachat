@@ -1,0 +1,118 @@
+{
+  "landing": {
+    "nav": {
+      "signIn": "Ingia",
+      "getStarted": "Anza Sasa"
+    },
+    "hero": {
+      "title": "Programu za Uaminifu",
+      "subtitle": "Zinazoishi kwenye WhatsApp",
+      "description": "Badilisha wateja wako wa WhatsApp kuwa mashabiki waaminifu. Hakuna programu za kupakua. Hakuna mifumo ngumu. Ni pointi, zawadi, na biashara inayorudia.",
+      "startTrial": "Anza Jaribio la Bure",
+      "watchDemo": "Tazama Onyesho"
+    },
+    "features": {
+      "title": "Kila Kitu Unachohitaji",
+      "subtitle": "Imejengwa kwa biashara zinazojua wateja wao wanaishi kwenye WhatsApp",
+      "whatsappNative": {
+        "title": "Asili ya WhatsApp",
+        "description": "Wateja wanapata na kutekeleza pointi moja kwa moja kwenye WhatsApp. Hakuna programu ya kupakua inayohitajika."
+      },
+      "customRewards": {
+        "title": "Zawadi Maalum",
+        "description": "Unda katalogi yako ya zawadi. Kutoka punguzo hadi bidhaa za bure."
+      },
+      "boostRetention": {
+        "title": "Ongeza Kuhifadhi",
+        "description": "Badilisha wanunuzi wa mara moja kuwa wateja wanarudia na pointi wanazotaka kweli."
+      },
+      "autoAward": {
+        "title": "Toa Pointi Kiotomatiki",
+        "description": "Inagundua ununuzi kiotomatiki na kutoa pointi. Kila kitu kinatokea kwenye WhatsApp."
+      }
+    },
+    "pricing": {
+      "title": "Bei Rahisi na Wazi",
+      "subtitle": "Bei kwa {country}. Anza bure. Panda hadhi unapokuwa tayari.",
+      "perMonth": "/mwezi",
+      "mostPopular": "Maarufu Zaidi",
+      "starter": {
+        "name": "Anzia",
+        "features": [
+          "Hadi wateja 100",
+          "Unganisho wa WhatsApp",
+          "Uchambuzi wa kimsingi",
+          "Toa pointi kiotomatiki",
+          "Msaada wa barua pepe"
+        ],
+        "cta": "Anza Jaribio la Bure"
+      },
+      "growth": {
+        "name": "Ukuaji",
+        "features": [
+          "Hadi wateja 500",
+          "Kila kitu katika Anzia",
+          "Uchambuzi wa hali ya juu",
+          "Msaada wa kipaumbele",
+          "Chapa maalum"
+        ],
+        "cta": "Anza Jaribio la Bure"
+      },
+      "business": {
+        "name": "Biashara",
+        "features": [
+          "Wateja wasiozuiliwa",
+          "Kila kitu katika Ukuaji",
+          "Ufikiaji wa API",
+          "Meneja wa akaunti aliyejitolea",
+          "Chaguzi za lebo nyeupe"
+        ],
+        "cta": "Wasiliana na Mauzo"
+      }
+    },
+    "cta": {
+      "title": "Uko Tayari Kujenga Uaminifu wa Wateja?",
+      "subtitle": "Jiunge na biashara zinazobadilisha mazungumzo ya WhatsApp kuwa wateja wanarudia",
+      "button": "Anza Jaribio Lako la Bure",
+      "noCreditCard": "Hakuna kadi ya mkopo inayohitajika"
+    },
+    "footer": {
+      "tagline": "Programu za uaminifu wa WhatsApp kwa biashara duniani kote",
+      "copyright": "© 2026 ChatRewards. Haki zote zimehifadhiwa."
+    }
+  },
+  "admin": {
+    "nav": {
+      "title": "ChatRewards Msimamizi",
+      "settings": "Mipangilio"
+    },
+    "stats": {
+      "totalCustomers": "Jumla ya Wateja",
+      "totalPoints": "Jumla ya Pointi Zilizotolewa",
+      "activeRewards": "Zawadi Zinazotumika"
+    },
+    "tabs": {
+      "customers": "Wateja",
+      "rewards": "Zawadi",
+      "transactions": "Miamala"
+    },
+    "empty": {
+      "noCustomers": "Bado hakuna wateja",
+      "description": "Wateja wataonekana hapa wanapoingiliana na bot yako ya WhatsApp",
+      "setupBot": "Weka Bot ya WhatsApp"
+    }
+  },
+  "whatsapp": {
+    "pointsEarned": "🎉 Umepata pointi {points}!",
+    "balance": "Salio lako: pointi {total}",
+    "seeRewards": "Jibu \"zawadi\" kuona unachoweza kutekeleza.",
+    "rewardRedeemed": "✅ Zawadi imetekeleżwa!",
+    "rewardName": "{name}",
+    "code": "Nambari: {code}",
+    "showCode": "Onyesha nambari hii kwa mmiliki wa duka.",
+    "ownerNotification": "🎁 Tahadhari ya Utekelezaji!",
+    "customer": "Mteja: {name}",
+    "reward": "Zawadi: {name}",
+    "applyDiscount": "Tafadhali tumia punguzo/zawadi hii."
+  }
+}
