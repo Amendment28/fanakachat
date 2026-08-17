@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabase } from '@/lib/supabase';
 import { sendPointsEarnedSMS } from '@/lib/sms';
 
 export async function POST(request: NextRequest) {
