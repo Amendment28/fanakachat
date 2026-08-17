@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { handleWhatsAppMessage } from "@/lib/bot-v2";
+import { handleWhatsAppMessage } from "@/lib/bot";
 
 // Webhook verification (required by WhatsApp)
 export async function GET(request: NextRequest) {
