@@ -1506,12 +1506,8 @@ async function handleChangePlan(shop: any, ownerPhone: string, text: string) {
   return sendWhatsAppMessage({
     to: ownerPhone,
     message:
-      `✅ Plan updated to: ${planNames[newPlan as keyof typeof planNames]}
-
-` +
-      "Pricing: \-100/month based on active customers.
-
-" +
+      `✅ Plan updated to: ${planNames[newPlan as keyof typeof planNames]}\n\n` +
+      "Pricing: $10-100/month based on active customers.\n\n" +
       "Reply 'billing' to see your current tier.",
   });
 }
@@ -1530,31 +1526,20 @@ async function handleViewBilling(shop: any, ownerPhone: string) {
   if (nextTier) {
     const customersUntilNext = nextTier.maxCustomers === Infinity 
       ? "No limit" 
-      : `${nextTier.maxCustomers - shop.activeCustomersThisMonth} more customers";
-    nextTierMsg = `
-
-📈 Next tier: \$${nextTier.price}/month at ${nextTier.maxCustomers === Infinity ? "1000+" : nextTier.maxCustomers} customers
-(${customersUntilNext})`;
+      : `${nextTier.maxCustomers - shop.activeCustomersThisMonth} more customers`;
+    nextTierMsg = `\n\n📈 Next tier: $${nextTier.price}/month at ${nextTier.maxCustomers === Infinity ? "1000+" : nextTier.maxCustomers} customers\n(${customersUntilNext})`;
   }
 
   return sendWhatsAppMessage({
     to: ownerPhone,
     message:
-      `💳 ${shop.name} Billing
-
-` +
-      `**Current Plan:** ${planNames[shop.planType as keyof typeof planNames]}
-` +
-      `**Active Customers:** ${shop.activeCustomersThisMonth || 0} (last 30 days)
-` +
-      `**Current Tier:** Tier ${tierInfo.tier}
-` +
-      `**Monthly Price:** \$${tierInfo.price} (~KES ${Math.round(tierInfo.price * 143)} / ~₦${Math.round(tierInfo.price * 1620)})
-` +
+      `💳 ${shop.name} Billing\n\n` +
+      `**Current Plan:** ${planNames[shop.planType as keyof typeof planNames]}\n` +
+      `**Active Customers:** ${shop.activeCustomersThisMonth || 0} (last 30 days)\n` +
+      `**Current Tier:** Tier ${tierInfo.tier}\n` +
+      `**Monthly Price:** $${tierInfo.price} (~KES ${Math.round(tierInfo.price * 143)} / ~₦${Math.round(tierInfo.price * 1620)})\n` +
       nextTierMsg +
-      `
-
-To change plan: reply 'plan [loyalty|appointments|both]'`,
+      `\n\nTo change plan: reply 'plan [loyalty|appointments|both]'`,
   });
 }
 
@@ -1575,18 +1560,10 @@ async function handleNotificationPreference(customer: any, customerPhone: string
   });
 
   const messages: { [key: string]: string } = {
-    NONE: "✅ Notifications turned off.
-
-You won't receive loyalty updates. Reply 'weekly' to turn them back on.",
-    DAILY: "✅ Daily summaries enabled.
-
-You'll get a daily recap of your points and visits.",
-    WEEKLY: "✅ Weekly summaries enabled.
-
-You'll get a summary every week with your points, visits, and rewards progress.",
-    MONTHLY: "✅ Monthly summaries enabled.
-
-You'll get a monthly recap of your activity.",
+    NONE: "✅ Notifications turned off.\n\nYou won't receive loyalty updates. Reply 'weekly' to turn them back on.",
+    DAILY: "✅ Daily summaries enabled.\n\nYou'll get a daily recap of your points and visits.",
+    WEEKLY: "✅ Weekly summaries enabled.\n\nYou'll get a summary every week with your points, visits, and rewards progress.",
+    MONTHLY: "✅ Monthly summaries enabled.\n\nYou'll get a monthly recap of your activity.",
   };
 
   return sendWhatsAppMessage({
