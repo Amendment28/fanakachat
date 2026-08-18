@@ -215,8 +215,12 @@ export default function HomeClient() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-16 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8 shadow-2xl"
           >
-            <div className="aspect-video bg-white/50 rounded-lg flex items-center justify-center">
-              <p className="text-charcoal/50">Demo Screenshot</p>
+            <div className="aspect-video bg-white/50 rounded-lg flex items-center justify-center overflow-hidden">
+              <img 
+                src="/whatsapp-demo.jpg" 
+                alt="FanakaChat WhatsApp loyalty program demo showing automated points and rewards"
+                className="w-full h-full object-contain"
+              />
             </div>
           </motion.div>
         </div>
